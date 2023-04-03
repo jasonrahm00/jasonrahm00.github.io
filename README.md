@@ -9,7 +9,14 @@ This repository is for assignments and capstone projects that I am completing fo
 - Learn about full-stack development
 - Add to my portfolio of projects
 - Become more marketable to employers
-
+## Tech Used
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- MongoDB
+- ExpressJS
+- NodeJS
 ## Capstone Projects
 
 1. GitHub Pages Portfolio
