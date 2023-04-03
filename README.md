@@ -1,6 +1,6 @@
 # Full Stack Development with MERN
 This repository is for assignments and capstone projects that I am completing for the MITxPRO Professional Certificate in Coding: Full Stack Development with MERN. The course is broken up into three modules with capstones at the end of each module. Within the modules, various foundational assignments and exercises will be completed and posted to show progress through the coursework. 
-[Project Portfolio Main Page](jasonrahm00.github.io)
+[Project Portfolio Main Page](/)
 ## Capstone Projects
 1. GitHub Pages Portfolio
 2. Bad Banking Application
