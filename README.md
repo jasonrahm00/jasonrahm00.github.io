@@ -29,7 +29,7 @@ This repository is for assignments and capstone projects that I am completing fo
 
 - [Hello Page](https://jasonrahm00.github.io/part1/hello/index.html): Create a basic Hello World page
 - [PacMan](https://jasonrahm00.github.io/part1/pac-man/index.html): Make PacMan move across the screen
-- [Walk Through Boston Data](https://jasonrahm00.github.io/part1/pac-man/index.html): List top earners from provided list of employee data
+- [Walk Through Boston Data](https://jasonrahm00.github.io/part1/boston-walk/index.html): List top earners from provided list of employee data
 
 ### Part 2: Front-End Development with React
 
