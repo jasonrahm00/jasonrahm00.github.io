@@ -3,7 +3,7 @@ import {boston} from './data.js';
 function renderPosts(people) {
   const len = people.length;
   const topFive = people.sort((a, b) => a[11] - b[11]).slice(len - 5); // Top Five Earners
-  const topEmployees = people.filter(person => person[11] >= 200000); // Anyone making over @200k
+  const topEmployees = people.filter(person => person[11] >= 200000); // Anyone making over $200k
   
   // Generate HTML list items with person data
   function generateList(arr) {
