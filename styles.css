@@ -1,0 +1,12 @@
+:root {
+  --bs-font-sans-serif: 'Roboto', sans-serif;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+main {
+  margin-top: 100px;
+  min-height: calc(100vh - 156px);
+}

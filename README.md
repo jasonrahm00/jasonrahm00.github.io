@@ -22,15 +22,3 @@ This repository is for assignments and capstone projects that I am completing fo
 1. GitHub Pages Portfolio
 2. Bad Banking Application
 3. Restaurant Application
-
-## Assigments
-
-### Part 1: Web Development with JavaScript
-
-- [Hello Page](https://jasonrahm00.github.io/part1/hello/index.html): Create a basic Hello World page
-- [PacMan](https://jasonrahm00.github.io/part1/pac-man/index.html): Make PacMan move across the screen
-- [Walk Through Boston Data](https://jasonrahm00.github.io/part1/boston-walk/index.html): List top earners from provided list of employee data
-
-### Part 2: Front-End Development with React
-
-### Part 3: Back-End Development
