@@ -11,12 +11,12 @@ export class MainNav extends HTMLElement {
         <div class="container-fluid justify-content-center">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="/${baseUrl}" class="nav-link">
+              <a href="home.html" class="nav-link">
                 <span>Home</span>
               </a>
             </li>
             <li class="nav-item">
-              <a href="/${baseUrl}/projects" class="nav-link">
+              <a href="projects.html" class="nav-link">
                 <span>Projects</span>
               </a>
             </li>
