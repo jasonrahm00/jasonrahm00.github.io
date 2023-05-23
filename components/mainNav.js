@@ -11,7 +11,7 @@ export class MainNav extends HTMLElement {
         <div class="container-fluid justify-content-center">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="home.html" class="nav-link">
+              <a href="index.html" class="nav-link">
                 <span>Home</span>
               </a>
             </li>
