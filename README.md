@@ -17,8 +17,3 @@ This repository is for assignments and capstone projects that I am completing fo
 - MongoDB
 - ExpressJS
 - NodeJS
-## Capstone Projects
-
-1. GitHub Pages Portfolio
-2. Bad Banking Application
-3. Restaurant Application
