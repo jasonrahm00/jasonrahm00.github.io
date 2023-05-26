@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Global Styles */
-
-root {
+:root {
   --bs-font-sans-serif: 'Roboto', sans-serif;
+  --bs-primary: #0053b3;
+  --bs-secondary: #a9193d;
 }
 
 html {
@@ -17,4 +18,17 @@ html {
 main {
   margin-top: 100px;
   min-height: calc(100vh - 156px);
+}
+
+h3 {
+  color: var(--bs-secondary);
+}
+
+.nav-link {
+  color: var(--bs-white);
+}
+
+.nav-link:hover {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
 }

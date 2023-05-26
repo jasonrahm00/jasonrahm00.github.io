@@ -11,27 +11,34 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./styles.css" />
+
+    <style>
+      .grid-wrapper {
+        display: grid;
+      }
+    </style>
   </head>
 
   <body>
     <jr-main-nav></jr-main-nav>
 
     <main class="container">
-      <header>
-        <h1>Jason's Portfolio</h1>
-        <img src="./images/jason-rahm.jpg" alt="Jason Rahm Headshot" />
-        <h2>Bio</h2>
-        <ul>
-          <li>linkedIn</li>
-          <li>github</li>
-          <li>contact???</li>
-        </ul>
-      </header>
+      <div class="grid-wrapper">
+        <div class="image-wrapper">
+          <img src="./images/jason-rahm.jpg" alt="Jason Rahm Headshot" />
+        </div>
+        <div>
+          <h1>Hello, I'm Jason Rahm</h1>
+          <p>About Me</p>
+          <ul>
+            <li>linkedIn</li>
+            <li>github</li>
+            <li>contact???</li>
+          </ul>
+        </div>
+      </div>
       <section>
         <h2>Intro Video</h2>
-      </section>
-      <section>
-        <h2>Contact</h2>
       </section>
     </main>
 
