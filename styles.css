@@ -32,3 +32,28 @@ h3 {
   background-color: var(--bs-primary);
   color: var(--bs-white);
 }
+
+/* Grid Styles */
+.grid-wrapper {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'headshot'
+    'bio';
+}
+.grid-wrapper h1 {
+  grid-area: header;
+}
+.image-wrapper {
+  grid-area: headshot;
+}
+.bio-wrapper {
+  grid-area: bio;
+}
+@media (min-width: 768px) {
+  .grid-wrapper {
+    grid-template-areas:
+      'header headshot'
+      'bio headshot';
+  }
+}
