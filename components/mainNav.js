@@ -1,4 +1,26 @@
 const currentPage = window.location.href
+const pages = [
+  {url: 'index.html', linkText: 'home'},
+  {url: 'projects.html', linkText: 'projects'},
+]
+
+const linkList = (() => {
+  let list = ''
+  pages.forEach(page => {
+    list += `
+      <li class="nav-item">
+        <a href="${page.url}" class="nav-link text-capitalize p-2 ${
+          currentPage.includes(page.url) 
+          ? 'active' 
+          : ''
+        }">
+          ${page.linkText}
+        </a>
+      </li>
+    `
+  })
+  return list
+})()
 
 export class MainNav extends HTMLElement {
   constructor() {
@@ -12,16 +34,7 @@ export class MainNav extends HTMLElement {
           <div class="container-fluid d-flex ps-0">
             <a href="index.html" class="navbar-brand">Jason Rahm</a>
             <ul class="navbar-nav flex-row">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link p-2">
-                  <span>Home</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="projects.html" class="nav-link p-2">
-                  <span>Projects</span>
-                </a>
-              </li>
+              ${linkList}
             </ul>
           </div>
         </div>
