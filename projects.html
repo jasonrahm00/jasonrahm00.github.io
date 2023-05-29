@@ -17,58 +17,40 @@
     <jr-main-nav></jr-main-nav>
 
     <main class="container">
-      <header>
-        <h1>MERN Certification Projects</h1>
-        <p>
-          The projects on this page were created as part of the Full Stack
-          Certification with MERN course I took through MIT.
-        </p>
-      </header>
+      <h1 class="mb-5">Projects</h1>
       <section>
-        <h2>Part 1 Project Repositories</h2>
+        <header class="mb-5">
+          <h2>Full Stack Certification Part 1 Exercise</h2>
+          <p>
+            The exercises on this page were created as part of the Full Stack
+            Certification with MERN course I took through MIT.
+          </p>
+        </header>
+
         <div class="grid-wrapper card-grid">
-          <section class="card">
-            <img class="car-img-top" src="./images/pacmen.png" alt="" />
-            <div class="card-body">
-              <h3>PacMen Exercise</h3>
-              <p class="card-text"></p>
-              <a
-                class="btn btn-primary"
-                href="https://github.com/jasonrahm00/pacmen-exercise"
-                aria-label="PacMen Exercise GitHub Repository"
-              >
-                <span aria-hidden="true">GitHub Repository</span>
-              </a>
-            </div>
-          </section>
-          <section class="card">
-            <img class="car-img-top" src="./images/eyes.png" alt="" />
-            <div class="card-body">
-              <h3>Eye Movement Exercise</h3>
-              <p class="card-text"></p>
-              <a
-                class="btn btn-primary"
-                href="https://github.com/jasonrahm00/eye-movement"
-                aria-label="Eye Movement Exercise GitHub Repository"
-              >
-                <span aria-hidden="true">GitHub Repository</span>
-              </a>
-            </div>
-          </section>
-          <section class="card">
-            <img class="car-img-top" src="./images/bus-tracker.png" alt="" />
-            <div class="card-body">
-              <h3>Bus Tracker Exercise</h3>
-              <p class="card-text"></p>
-              <a
-                class="btn btn-primary"
-                href="https://github.com/jasonrahm00/realtime-bus-tracker"
-                aria-label="Real-Time Bus Tracker GitHub Repository"
-              >
-                <span aria-hidden="true">GitHub Repository</span>
-              </a>
-            </div>
-          </section>
+          <jr-card
+            header="PacMen Exercise"
+            body="Clicking a button adds a Pacman to the screen in a random place. Another button moves the Pacmen heads around the screen in random directions and speeds."
+            image="./images/pacmen.png"
+            link-url="https://github.com/jasonrahm00/pacmen-exercise"
+            link-label="PacMen Exercise GitHub Repository"
+          ></jr-card>
+
+          <jr-card
+            header="Eye Movement Exercise"
+            body="A pair of eyes are stationary on the screen on page load. Clicking a 'Track' button wil cause the pupils to follow the cursor around the screen."
+            image="./images/eyes.png"
+            link-url="https://github.com/jasonrahm00/eye-movement"
+            link-label="Eye Movement Exercise GitHub Repository"
+          ></jr-card>
+
+          <jr-card
+            header="Bus Tracker Exercise"
+            body="Real-time public transportation route data is retrieved from the MBTA API and added to a Google map when the user selects a route from the dropdown."
+            image="./images/bus-tracker.png"
+            link-url="https://github.com/jasonrahm00/realtime-bus-tracker"
+            link-label="Real-Time Bus Tracker GitHub Repository"
+          ></jr-card>
         </div>
       </section>
     </main>
