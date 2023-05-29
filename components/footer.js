@@ -7,7 +7,7 @@ export class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <footer class="bg-dark" data-bs-theme="dark">
+      <footer class="bg-dark mt-5" data-bs-theme="dark">
         <div class="container py-3">
           <p class="m-0 text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">

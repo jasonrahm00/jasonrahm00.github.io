@@ -24,8 +24,11 @@ a {
   text-decoration: none;
 }
 
-section {
-  margin-bottom: 3rem;
+iframe {
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  max-width: 750px;
+  width: 100%;
 }
 
 .card .card-img-top {
