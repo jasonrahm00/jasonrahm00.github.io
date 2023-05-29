@@ -20,6 +20,10 @@ main {
   min-height: calc(100vh - 156px);
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   margin-bottom: 3rem;
 }
@@ -61,7 +65,7 @@ section {
 
 /* Bio Grid Styles */
 .grid-wrapper.bio {
-  row-gap: 3rem;
+  row-gap: 2rem;
   grid-template:
     'header'
     'headshot'
@@ -104,7 +108,7 @@ section {
   .grid-wrapper.bio {
     column-gap: 2rem;
     grid-template:
-      'header header headshot'
+      'header header header'
       'bio bio headshot';
   }
   .grid-wrapper.card-grid {
