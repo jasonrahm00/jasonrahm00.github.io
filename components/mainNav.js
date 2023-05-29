@@ -1,19 +1,14 @@
-const currentPage = window.location.href
 const pages = [
-  {url: 'index.html', linkText: 'home'},
-  {url: 'projects.html', linkText: 'projects'},
+  { url: 'index.html', linkText: 'home' },
+  { url: 'projects.html', linkText: 'projects' },
 ]
 
 const linkList = (() => {
   let list = ''
-  pages.forEach(page => {
+  pages.forEach((page) => {
     list += `
       <li class="nav-item">
-        <a href="${page.url}" class="nav-link text-capitalize p-2 ${
-          currentPage.includes(page.url) 
-          ? 'active' 
-          : ''
-        }">
+        <a href="${page.url}" class="nav-link text-capitalize p-2">
           ${page.linkText}
         </a>
       </li>

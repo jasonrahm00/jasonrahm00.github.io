@@ -17,25 +17,59 @@
     <jr-main-nav></jr-main-nav>
 
     <main class="container">
-      <h1>Projects</h1>
+      <header>
+        <h1>MERN Certification Projects</h1>
+        <p>
+          The projects on this page were created as part of the Full Stack
+          Certification with MERN course I took through MIT.
+        </p>
+      </header>
       <section>
         <h2>Part 1 Project Repositories</h2>
-        <!-- Turn into CardFlip Components -->
-        <ul>
-          <li>
-            <a href="https://github.com/jasonrahm00/pacmen-exercise">PacMen</a>
-          </li>
-          <li>
-            <a href="https://github.com/jasonrahm00/eye-movement"
-              >Eye Movement</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/jasonrahm00/realtime-bus-tracker"
-              >Real-Time Bus Tracker</a
-            >
-          </li>
-        </ul>
+        <div class="grid-wrapper card-grid">
+          <section class="card">
+            <img class="car-img-top" src="./images/pacmen.png" alt="" />
+            <div class="card-body">
+              <h3>PacMen Exercise</h3>
+              <p class="card-text"></p>
+              <a
+                class="btn btn-primary"
+                href="https://github.com/jasonrahm00/pacmen-exercise"
+                aria-label="PacMen Exercise GitHub Repository"
+              >
+                <span aria-hidden="true">GitHub Repository</span>
+              </a>
+            </div>
+          </section>
+          <section class="card">
+            <img class="car-img-top" src="./images/eyes.png" alt="" />
+            <div class="card-body">
+              <h3>Eye Movement Exercise</h3>
+              <p class="card-text"></p>
+              <a
+                class="btn btn-primary"
+                href="https://github.com/jasonrahm00/eye-movement"
+                aria-label="Eye Movement Exercise GitHub Repository"
+              >
+                <span aria-hidden="true">GitHub Repository</span>
+              </a>
+            </div>
+          </section>
+          <section class="card">
+            <img class="car-img-top" src="./images/bus-tracker.png" alt="" />
+            <div class="card-body">
+              <h3>Bus Tracker Exercise</h3>
+              <p class="card-text"></p>
+              <a
+                class="btn btn-primary"
+                href="https://github.com/jasonrahm00/realtime-bus-tracker"
+                aria-label="Real-Time Bus Tracker GitHub Repository"
+              >
+                <span aria-hidden="true">GitHub Repository</span>
+              </a>
+            </div>
+          </section>
+        </div>
       </section>
     </main>
 
