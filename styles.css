@@ -64,6 +64,7 @@ iframe {
 /* Grid Styles */
 .grid-wrapper {
   display: grid;
+  row-gap: 3rem;
 }
 
 /* Bio Grid Styles */
